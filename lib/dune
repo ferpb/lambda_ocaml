@@ -1,0 +1,6 @@
+(library
+ (name liblambda)
+ (modules term toplevel parser lexer))
+
+(ocamlyacc parser)
+(ocamllex lexer)
